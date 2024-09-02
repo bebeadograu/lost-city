@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desvendando os Mistérios do Mundo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.webp" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da faculdade, descobri uma carta antiga escrito que deviamos descobrir as maravilhas do mundo. Nessa carta, a escritura reflete e ao passar a mão, sou levada para outro lugar!</p>
+            <button class="btn-proximo" data-proximo="1">Tóquio, Japão </button>
+            <button class="btn-proximo" data-proximo="2">Atenas, Grécia</button>
+    </div>
+
+        </div>
+        <div class="passo" id="passo-0">
+
+            <p>De repente, eu me encontro em Atenas, na Grécia. A cidade era linda e repleta de arquiteturas antigas. Sob essas circunstâncias, começo a tentar achar uma saída, pois eu só queria ler um livro! Como isso aconteceu?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Procurar ajuda com cidadões</button>
+            <button class="btn-proximo" data-proximo="2">Tentar ir embora sozinha</button>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
